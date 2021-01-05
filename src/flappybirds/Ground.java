@@ -19,7 +19,7 @@ public class Ground {
 			groundImage=ImageIO.read(new File("Asserts/ground.png"));
 		} catch (IOException e) {}
 		x1 = 0;
-		y1 = 400;
+		y1 = 500;
 		x2 = x1 + 830;
 		y2 = 500;
 		
