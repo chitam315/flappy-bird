@@ -103,7 +103,7 @@ public class FlappyBird extends GameScreen{
 				}
 				
 			}
-				for (int i = 0; i < ChimneyGroup.SIZE; i++) {
+				for ( int i = 0; i < ChimneyGroup.SIZE; i++ ) {
 					if (bird.getPosX() > chimneyGroup.getChimney(i).getPosX() && !chimneyGroup.getChimney(i).getIsbehindBird() 
 							&& i%2==0) {
 						Point ++;
